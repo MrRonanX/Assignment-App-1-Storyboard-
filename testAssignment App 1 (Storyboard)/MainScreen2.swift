@@ -39,14 +39,23 @@ class MainScreen2: UIViewController {
    
 	@IBAction func buttonPressed(_ sender: CustomButton) {
 		deleteLastLabelFromCoreData()
-		let input = textField.text!
-		switch input {
-		case "":
-			navigationController?.popToRootViewController(animated: true)
-		default:
-			performSegue(withIdentifier: "ChildToParent", sender: self)
-		}
 		
+		//FIXED POP TO NAVIGATION CONTROLLER
+		
+		let input = textField.text!
+		if let rootVC = navigationController?.viewControllers.first as? MainScreen1 {
+			rootVC.input = input
+		}
+		navigationController?.popToRootViewController(animated: true)
+		
+//		let input = textField.text!
+//		switch input {
+//		case "":
+//			navigationController?.popToRootViewController(animated: true)
+//		default:
+//			performSegue(withIdentifier: "ChildToParent", sender: self)
+//		}
+//
 		
 //		ONE MORE WAY TO SAVE DATA    --> USER DEFAULTS
 //

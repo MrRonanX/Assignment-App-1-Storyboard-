@@ -46,6 +46,9 @@ class MainScreen1: UIViewController {
 		super.viewWillAppear(animated)
 		//setLabelFromDefaults()
 		setLabelFromCoreData()
+		if let input = input {
+				label.text = input
+			}
 	}
 	
 	private func setLabelFromDefaults() {
