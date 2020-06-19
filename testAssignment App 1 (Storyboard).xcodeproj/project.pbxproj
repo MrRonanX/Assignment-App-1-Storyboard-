@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F99463B0249C611800CC4106 /* LabelSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F99463AE249C611800CC4106 /* LabelSaver.xcdatamodeld */; };
 		F9B769FA2498FEC000BFE8AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B769F92498FEC000BFE8AB /* AppDelegate.swift */; };
 		F9B769FC2498FEC000BFE8AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B769FB2498FEC000BFE8AB /* SceneDelegate.swift */; };
 		F9B769FE2498FEC000BFE8AB /* MainScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B769FD2498FEC000BFE8AB /* MainScreen1.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F99463AF249C611800CC4106 /* LabelSaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabelSaver.xcdatamodel; sourceTree = "<group>"; };
 		F9B769F62498FEC000BFE8AB /* testAssignment App 1 (Storyboard).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testAssignment App 1 (Storyboard).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B769F92498FEC000BFE8AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B769FB2498FEC000BFE8AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				F9B76A042498FEC200BFE8AB /* LaunchScreen.storyboard */,
 				F9B76A072498FEC200BFE8AB /* Info.plist */,
 				F9B76A0D2498FF7D00BFE8AB /* CustomButton.swift */,
+				F99463AE249C611800CC4106 /* LabelSaver.xcdatamodeld */,
 			);
 			path = "testAssignment App 1 (Storyboard)";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				F9B76A10249906D400BFE8AB /* MainScreen2.swift in Sources */,
 				F9B76A0E2498FF7D00BFE8AB /* CustomButton.swift in Sources */,
+				F99463B0249C611800CC4106 /* LabelSaver.xcdatamodeld in Sources */,
 				F9B769FE2498FEC000BFE8AB /* MainScreen1.swift in Sources */,
 				F9B769FA2498FEC000BFE8AB /* AppDelegate.swift in Sources */,
 				F9B769FC2498FEC000BFE8AB /* SceneDelegate.swift in Sources */,
@@ -348,6 +352,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F99463AE249C611800CC4106 /* LabelSaver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F99463AF249C611800CC4106 /* LabelSaver.xcdatamodel */,
+			);
+			currentVersion = F99463AF249C611800CC4106 /* LabelSaver.xcdatamodel */;
+			path = LabelSaver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9B769EE2498FEC000BFE8AB /* Project object */;
 }
